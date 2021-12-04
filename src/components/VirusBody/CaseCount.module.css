@@ -1,0 +1,38 @@
+.total_case_count, .total_recovered_count, .total_death_count, .active_cases, .closed_cases
+{
+    color: black;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 25px;
+    width: 12pc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total_case_count {
+    background: rgb(255, 255, 255);
+}
+
+.total_death_count {
+    background: rgb(255, 99, 71);
+}
+
+.total_recovered_count {
+    background: rgb(112, 204, 112);
+}
+
+.active_cases {
+    background: rgb(185, 185, 233);
+}
+
+.closed_cases {
+    background: rgb(233, 233, 127);
+}
+
+.case_contaner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,24 @@
+.navBar, .navBar button
+{
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar {
+    background: rgb(112, 204, 112);
+    color: black;
+    margin: 1%;
+    padding: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.navBar button {
+    background: black;
+    color: rgb(112, 204, 112);
+    margin: 0.5%;
+    padding: 0.5%;
+    border: none;
+}

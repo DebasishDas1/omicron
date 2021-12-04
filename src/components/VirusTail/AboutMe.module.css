@@ -1,0 +1,43 @@
+.aboumeContaner {
+    background: tomato;
+    color: black;
+    margin: 1%;
+    padding: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    background: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 25px;
+}
+
+input, select, textarea 
+{
+    border-radius: 5%;
+    border:none;
+    width: 50%;
+    margin: 0.5%;
+    font-size: large;
+    text-align: center;
+}
+
+.submit_button {
+    color: white;
+    background: tomato;
+    border: none;
+    width: 50%;
+    padding: 0.5%;
+    margin: 0.5%;
+    border-radius: 25px;
+}
